@@ -145,7 +145,6 @@ public class AuthController {
 	// ตั้งค่า AuthCallback
     public void setAuthCallback(AuthCallback callback) {
         this.authCallback = callback;
-        System.out.println("AuthCallback set");
     }
     
     public JPanel getLoginPanel() {
