@@ -1,0 +1,4 @@
+policy_id,max_cap,income_condition
+P01,6500,income < 6500
+P02,20000,income >= 6500 AND income <= 50000
+P03,20000,income > 50000
